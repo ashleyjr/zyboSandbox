@@ -2,11 +2,11 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Sun Jan 17 17:49:58 2016
-# Process ID: 8704
-# Current directory: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/vga_fifo_synth_1
+# Start of session at: Sun Jan 31 16:38:53 2016
+# Process ID: 7637
+# Current directory: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/vga_fifo_synth_1
 # Command line: vivado -log vga_fifo.vds -mode batch -messageDb vivado.pb -notrace -source vga_fifo.tcl
-# Log file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.vds
-# Journal file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vivado.jou
+# Log file: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.vds
+# Journal file: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vivado.jou
 #-----------------------------------------------------------
 source vga_fifo.tcl -notrace

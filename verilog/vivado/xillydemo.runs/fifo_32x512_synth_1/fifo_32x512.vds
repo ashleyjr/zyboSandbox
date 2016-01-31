@@ -2,31 +2,31 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Sun Jan 17 17:42:08 2016
-# Process ID: 8311
-# Current directory: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1
+# Start of session at: Sun Jan 31 16:31:40 2016
+# Process ID: 7146
+# Current directory: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1
 # Command line: vivado -log fifo_32x512.vds -mode batch -messageDb vivado.pb -notrace -source fifo_32x512.tcl
-# Log file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.vds
-# Journal file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/vivado.jou
+# Log file: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.vds
+# Journal file: /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/vivado.jou
 #-----------------------------------------------------------
 source fifo_32x512.tcl -notrace
 WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /opt/Xilinx/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ashley/zyboSandbox/vivado-essentials/vivado-ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.4/data/ip'.
-WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'fifo_32x512' generated file not found '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_sim_netlist.vhdl'. Please regenerate to continue.
 Command: synth_design -top fifo_32x512 -part xc7z010clg400-1 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 1050.516 ; gain = 206.367 ; free physical = 119 ; free virtual = 5283
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1050.512 ; gain = 206.367 ; free physical = 128 ; free virtual = 5628
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'fifo_32x512' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'fifo_32x512' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:72]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
 	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
@@ -228,8 +228,8 @@ INFO: [Synth 8-638] synthesizing module 'fifo_32x512' [/home/ashley/zybo/xillinu
 	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fifo_generator_v13_0_1' declared at '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:137' bound to instance 'U0' of component 'fifo_generator_v13_0_1' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:529]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:676]
+INFO: [Synth 8-3491] module 'fifo_generator_v13_0_1' declared at '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:137' bound to instance 'U0' of component 'fifo_generator_v13_0_1' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:529]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:676]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
 	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
@@ -431,7 +431,7 @@ INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1' [/home/ashley/z
 	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1_synth' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33659]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1_synth' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33659]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
 	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
@@ -633,8 +633,8 @@ INFO: [Synth 8-638] synthesizing module 'fifo_generator_v13_0_1_synth' [/home/as
 	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
 	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33723]
-INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33723]
+INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
@@ -646,17 +646,17 @@ INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo' [/home/ashley/zybo/x
 	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12483]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12484]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12485]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12486]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12803]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12804]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12805]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12806]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12807]
-INFO: [Synth 8-256] done synthesizing module 'reset_blk_ramfifo' (1#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_top' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:32420]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12483]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12484]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12485]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12486]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12803]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12804]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12805]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12806]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12807]
+INFO: [Synth 8-256] done synthesizing module 'reset_blk_ramfifo' (1#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_top' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:32420]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
@@ -729,7 +729,7 @@ INFO: [Synth 8-638] synthesizing module 'fifo_generator_top' [/home/ashley/zybo/
 	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
 	Parameter C_WR_FREQ bound to: 1 - type: integer 
 	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_ramfifo' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:20583]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_ramfifo' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:20583]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
@@ -785,7 +785,7 @@ INFO: [Synth 8-638] synthesizing module 'fifo_generator_ramfifo' [/home/ashley/z
 	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo__parameterized0' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
+INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo__parameterized0' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
@@ -797,8 +797,8 @@ INFO: [Synth 8-638] synthesizing module 'reset_blk_ramfifo__parameterized0' [/ho
 	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'reset_blk_ramfifo__parameterized0' (1#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
-INFO: [Synth 8-638] synthesizing module 'input_blk' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:3996]
+INFO: [Synth 8-256] done synthesizing module 'reset_blk_ramfifo__parameterized0' (1#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:12376]
+INFO: [Synth 8-638] synthesizing module 'input_blk' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:3996]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_IMPLEMENTATION_TYPE bound to: 0 - type: integer 
 	Parameter C_DIN_WIDTH bound to: 32 - type: integer 
@@ -817,8 +817,8 @@ INFO: [Synth 8-638] synthesizing module 'input_blk' [/home/ashley/zybo/xillinux-
 	Parameter C_USE_INPUT_CE bound to: 0 - type: integer 
 	Parameter C_USE_OUTPUT_CE bound to: 0 - type: integer 
 	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'input_blk' (2#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:3996]
-INFO: [Synth 8-638] synthesizing module 'memory' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:5632]
+INFO: [Synth 8-256] done synthesizing module 'input_blk' (2#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:3996]
+INFO: [Synth 8-638] synthesizing module 'memory' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:5632]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_HAS_RST bound to: 0 - type: integer 
@@ -912,8 +912,8 @@ INFO: [Synth 8-638] synthesizing module 'memory' [/home/ashley/zybo/xillinux-eva
 	Parameter C_COMMON_CLK bound to: 1 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_1' declared at '/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:133' bound to instance 'bmg' of component 'blk_mem_gen_v8_3_1' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:6262]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:277]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_1' declared at '/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:133' bound to instance 'bmg' of component 'blk_mem_gen_v8_3_1' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:6262]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:277]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
@@ -987,7 +987,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1' [/home/ashley/zybo/
 	Parameter C_COUNT_36K_BRAM bound to: (null) - type: string 
 	Parameter C_COUNT_18K_BRAM bound to: (null) - type: string 
 	Parameter C_EST_POWER_SUMMARY bound to: (null) - type: string 
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1_synth' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193780]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1_synth' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193780]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
@@ -1056,7 +1056,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_v8_3_1_synth' [/home/ashley
 	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_top' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:192741]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_top' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:192741]
 	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -1127,22 +1127,22 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_top' [/home/ashley/zybo/xil
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_input_block' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187182]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:4803]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_input_block' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187182]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_MEM_TYPE bound to: 1 - type: integer 
 	Parameter C_HAS_RSTA bound to: 0 - type: integer 
@@ -1179,13 +1179,13 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_input_block' [/home/ashley/zybo
 	Parameter C_USE_ECC bound to: 0 - type: integer 
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_input_block' (3#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187182]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193270]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193274]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193278]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193282]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193296]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_generic_cstr' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:184458]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_input_block' (3#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187182]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193270]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193274]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193278]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193282]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193296]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_generic_cstr' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:184458]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
@@ -1259,7 +1259,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_generic_cstr' [/home/ashley
 	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_width' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:182885]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_width' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:182885]
 	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -1317,9 +1317,9 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_width' [/home/ashley/z
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 9 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183564]
-INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183565]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_wrapper' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:6987]
+INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183564]
+INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183565]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_wrapper' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:6987]
 	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
@@ -1376,7 +1376,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_prim_wrapper' [/home/ashley
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 9 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 9 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:16048]
+INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:16048]
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -1476,13 +1476,13 @@ INFO: [Synth 8-3919] null assignment ignored [/home/ashley/zybo/xillinux-eval-zy
 	Parameter WRITE_MODE_B bound to: READ_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 0 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
-INFO: [Synth 8-113] binding component instance 'ram' to cell 'RAMB18E1' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:16091]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_prim_wrapper' (4#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:6987]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_prim_width' (5#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:182885]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:185950]
-WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:186103]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_generic_cstr' (6#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:184458]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_output_block' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187787]
+INFO: [Synth 8-113] binding component instance 'ram' to cell 'RAMB18E1' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:16091]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_prim_wrapper' (4#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:6987]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_prim_width' (5#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:182885]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:185950]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:186103]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_generic_cstr' (6#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:184458]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_output_block' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187787]
 	Parameter C_MEM_TYPE bound to: 1 - type: integer 
 	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
 	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
@@ -1493,12 +1493,12 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_output_block' [/home/ashley/zyb
 	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_USE_ECC bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_output_block' (7#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187787]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_top' (8#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:192741]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_v8_3_1_synth' (9#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193780]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_v8_3_1' (10#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:277]
-INFO: [Synth 8-256] done synthesizing module 'memory' (11#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:5632]
-INFO: [Synth 8-638] synthesizing module 'rd_logic' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:19688]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_output_block' (7#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:187787]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_top' (8#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:192741]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_v8_3_1_synth' (9#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:193780]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_v8_3_1' (10#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3.vhd:277]
+INFO: [Synth 8-256] done synthesizing module 'memory' (11#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:5632]
+INFO: [Synth 8-638] synthesizing module 'rd_logic' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:19688]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
 	Parameter C_HAS_RD_DATA_COUNT bound to: 0 - type: integer 
@@ -1521,29 +1521,29 @@ INFO: [Synth 8-638] synthesizing module 'rd_logic' [/home/ashley/zybo/xillinux-e
 	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 3 - type: integer 
 	Parameter C_USE_EMBEDDED_REG bound to: 0 - type: integer 
 	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'rd_bin_cntr' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8178]
+INFO: [Synth 8-638] synthesizing module 'rd_bin_cntr' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8178]
 	Parameter C_HAS_RST bound to: 0 - type: integer 
 	Parameter C_HAS_SRST bound to: 1 - type: integer 
 	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
 	Parameter C_PNTR_WIDTH bound to: 9 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'rd_bin_cntr' (12#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8178]
-INFO: [Synth 8-638] synthesizing module 'rd_status_flags_ss' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8787]
+INFO: [Synth 8-256] done synthesizing module 'rd_bin_cntr' (12#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8178]
+INFO: [Synth 8-638] synthesizing module 'rd_status_flags_ss' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8787]
 	Parameter C_HAS_RST bound to: 0 - type: integer 
 	Parameter C_HAS_SRST bound to: 1 - type: integer 
 	Parameter C_RD_PNTR_WIDTH bound to: 9 - type: integer 
 	Parameter C_WR_PNTR_WIDTH bound to: 9 - type: integer 
 	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'compare' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7562]
+INFO: [Synth 8-638] synthesizing module 'compare' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7562]
 	Parameter C_WIDTH bound to: 9 - type: integer 
-INFO: [Synth 8-113] binding component instance 'm1' to cell 'MUXCY' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7622]
-INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
-INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
-INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
-INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
-INFO: [Synth 8-256] done synthesizing module 'compare' (13#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7562]
-INFO: [Synth 8-256] done synthesizing module 'rd_status_flags_ss' (14#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8787]
-INFO: [Synth 8-256] done synthesizing module 'rd_logic' (15#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:19688]
-INFO: [Synth 8-638] synthesizing module 'wr_logic' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:16249]
+INFO: [Synth 8-113] binding component instance 'm1' to cell 'MUXCY' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7622]
+INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
+INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
+INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
+INFO: [Synth 8-113] binding component instance 'ms' to cell 'MUXCY' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7634]
+INFO: [Synth 8-256] done synthesizing module 'compare' (13#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7562]
+INFO: [Synth 8-256] done synthesizing module 'rd_status_flags_ss' (14#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:8787]
+INFO: [Synth 8-256] done synthesizing module 'rd_logic' (15#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:19688]
+INFO: [Synth 8-638] synthesizing module 'wr_logic' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:16249]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
 	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
@@ -1566,7 +1566,7 @@ INFO: [Synth 8-638] synthesizing module 'wr_logic' [/home/ashley/zybo/xillinux-e
 	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 510 - type: integer 
 	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 509 - type: integer 
 	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'wr_bin_cntr' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7761]
+INFO: [Synth 8-638] synthesizing module 'wr_bin_cntr' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7761]
 	Parameter C_HAS_RST bound to: 0 - type: integer 
 	Parameter C_HAS_SRST bound to: 1 - type: integer 
 	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
@@ -1575,8 +1575,8 @@ INFO: [Synth 8-638] synthesizing module 'wr_bin_cntr' [/home/ashley/zybo/xillinu
 	Parameter C_PNTR_WIDTH bound to: 9 - type: integer 
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_WR_RD_RATIO bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'wr_bin_cntr' (16#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7761]
-INFO: [Synth 8-638] synthesizing module 'wr_status_flags_ss' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:13849]
+INFO: [Synth 8-256] done synthesizing module 'wr_bin_cntr' (16#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:7761]
+INFO: [Synth 8-638] synthesizing module 'wr_status_flags_ss' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:13849]
 	Parameter C_RD_PNTR_WIDTH bound to: 9 - type: integer 
 	Parameter C_WR_PNTR_WIDTH bound to: 9 - type: integer 
 	Parameter C_HAS_RST bound to: 0 - type: integer 
@@ -1585,9 +1585,9 @@ INFO: [Synth 8-638] synthesizing module 'wr_status_flags_ss' [/home/ashley/zybo/
 	Parameter C_PROG_FULL_TYPE bound to: 0 - type: integer 
 	Parameter C_PROG_EMPTY_TYPE bound to: 0 - type: integer 
 	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'wr_status_flags_ss' (17#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:13849]
-INFO: [Synth 8-256] done synthesizing module 'wr_logic' (18#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:16249]
-INFO: [Synth 8-638] synthesizing module 'output_blk' [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:4436]
+INFO: [Synth 8-256] done synthesizing module 'wr_status_flags_ss' (17#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:13849]
+INFO: [Synth 8-256] done synthesizing module 'wr_logic' (18#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:16249]
+INFO: [Synth 8-638] synthesizing module 'output_blk' [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:4436]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
 	Parameter C_DIN_WIDTH bound to: 32 - type: integer 
@@ -1613,14 +1613,14 @@ INFO: [Synth 8-638] synthesizing module 'output_blk' [/home/ashley/zybo/xillinux
 	Parameter C_USE_ECC bound to: 0 - type: integer 
 	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'output_blk' (19#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:4436]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_ramfifo' (20#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:20583]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_top' (21#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:32420]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v13_0_1_synth' (22#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33659]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v13_0_1' (23#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:676]
-INFO: [Synth 8-256] done synthesizing module 'fifo_32x512' (24#1) [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'output_blk' (19#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:4436]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_ramfifo' (20#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:20583]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_top' (21#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:32420]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v13_0_1_synth' (22#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:33659]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v13_0_1' (23#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_generator_v13_0_1/hdl/fifo_generator_v13_0.vhd:676]
+INFO: [Synth 8-256] done synthesizing module 'fifo_32x512' (24#1) [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/synth/fifo_32x512.vhd:72]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:28 ; elapsed = 00:02:39 . Memory (MB): peak = 1233.559 ; gain = 389.410 ; free physical = 133 ; free virtual = 5112
+Finished RTL Elaboration : Time (s): cpu = 00:02:23 ; elapsed = 00:02:31 . Memory (MB): peak = 1232.555 ; gain = 388.410 ; free physical = 142 ; free virtual = 5270
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1629,16 +1629,16 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[35] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[26] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[17] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[8] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[35] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[26] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[17] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
-INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[8] to constant 0 [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[35] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[26] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[17] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[8] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[35] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[26] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[17] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
+INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINB[8] to constant 0 [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/blk_mem_gen_v8_3_1/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:183803]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:28 ; elapsed = 00:02:39 . Memory (MB): peak = 1233.559 ; gain = 389.410 ; free physical = 136 ; free virtual = 5113
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:23 ; elapsed = 00:02:31 . Memory (MB): peak = 1232.555 ; gain = 388.410 ; free physical = 142 ; free virtual = 5270
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1647,39 +1647,39 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
-Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
-Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
+Parsing XDC File [/home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1308.559 ; gain = 0.000 ; free physical = 115 ; free virtual = 5103
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1308.555 ; gain = 0.000 ; free physical = 126 ; free virtual = 5240
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8458 
+INFO: Helper process launched with PID 7407 
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:02:44 ; elapsed = 00:03:00 . Memory (MB): peak = 1308.562 ; gain = 464.414 ; free physical = 141 ; free virtual = 5103
+Finished Constraint Validation : Time (s): cpu = 00:02:39 ; elapsed = 00:02:53 . Memory (MB): peak = 1308.559 ; gain = 464.414 ; free physical = 124 ; free virtual = 5213
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:44 ; elapsed = 00:03:00 . Memory (MB): peak = 1308.562 ; gain = 464.414 ; free physical = 141 ; free virtual = 5103
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:39 ; elapsed = 00:02:53 . Memory (MB): peak = 1308.559 ; gain = 464.414 ; free physical = 124 ; free virtual = 5213
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:44 ; elapsed = 00:03:00 . Memory (MB): peak = 1308.562 ; gain = 464.414 ; free physical = 141 ; free virtual = 5103
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:39 ; elapsed = 00:02:53 . Memory (MB): peak = 1308.559 ; gain = 464.414 ; free physical = 124 ; free virtual = 5213
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:45 ; elapsed = 00:03:01 . Memory (MB): peak = 1308.562 ; gain = 464.414 ; free physical = 133 ; free virtual = 5098
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:40 ; elapsed = 00:02:54 . Memory (MB): peak = 1308.559 ; gain = 464.414 ; free physical = 114 ; free virtual = 5203
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1751,14 +1751,14 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:45 ; elapsed = 00:03:02 . Memory (MB): peak = 1308.566 ; gain = 464.418 ; free physical = 133 ; free virtual = 5099
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:40 ; elapsed = 00:02:55 . Memory (MB): peak = 1308.562 ; gain = 464.418 ; free physical = 114 ; free virtual = 5203
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:45 ; elapsed = 00:03:02 . Memory (MB): peak = 1308.566 ; gain = 464.418 ; free physical = 126 ; free virtual = 5092
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:41 ; elapsed = 00:02:55 . Memory (MB): peak = 1308.562 ; gain = 464.418 ; free physical = 108 ; free virtual = 5198
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:02:45 ; elapsed = 00:03:02 . Memory (MB): peak = 1308.566 ; gain = 464.418 ; free physical = 126 ; free virtual = 5092
+Finished Parallel Reinference  : Time (s): cpu = 00:02:41 ; elapsed = 00:02:55 . Memory (MB): peak = 1308.562 ; gain = 464.418 ; free physical = 108 ; free virtual = 5198
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1769,9 +1769,9 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:46 ; elapsed = 00:03:03 . Memory (MB): peak = 1308.566 ; gain = 464.418 ; free physical = 106 ; free virtual = 5077
+Finished Area Optimization : Time (s): cpu = 00:02:41 ; elapsed = 00:02:56 . Memory (MB): peak = 1308.562 ; gain = 464.418 ; free physical = 127 ; free virtual = 5184
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:02:46 ; elapsed = 00:03:03 . Memory (MB): peak = 1308.566 ; gain = 464.418 ; free physical = 106 ; free virtual = 5077
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:41 ; elapsed = 00:02:56 . Memory (MB): peak = 1308.562 ; gain = 464.418 ; free physical = 127 ; free virtual = 5184
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1785,10 +1785,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:01 ; elapsed = 00:03:19 . Memory (MB): peak = 1321.562 ; gain = 477.414 ; free physical = 116 ; free virtual = 5045
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:56 ; elapsed = 00:03:12 . Memory (MB): peak = 1321.559 ; gain = 477.414 ; free physical = 139 ; free virtual = 5158
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:01 ; elapsed = 00:03:19 . Memory (MB): peak = 1331.574 ; gain = 487.426 ; free physical = 104 ; free virtual = 5037
+Finished Timing Optimization : Time (s): cpu = 00:02:56 ; elapsed = 00:03:12 . Memory (MB): peak = 1331.570 ; gain = 487.426 ; free physical = 129 ; free virtual = 5150
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1806,16 +1806,16 @@ WARNING: [Synth 8-3332] Sequential element (\inst_fifo_gen/reset_gen_cc.rstblk_c
 WARNING: [Synth 8-3332] Sequential element (\inst_fifo_gen/reset_gen_cc.rstblk_cc/ngwrdrst.grst.g7serrst.rd_rst_asreg_reg ) is unused and will be removed from module fifo_generator_v13_0_1.
 WARNING: [Synth 8-3332] Sequential element (\inst_fifo_gen/reset_gen_cc.rstblk_cc/ngwrdrst.grst.g7serrst.rd_rst_asreg_d2_reg ) is unused and will be removed from module fifo_generator_v13_0_1.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:01 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 130 ; free virtual = 5027
+Finished Technology Mapping : Time (s): cpu = 00:02:57 ; elapsed = 00:03:13 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 120 ; free virtual = 5140
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:03:01 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 130 ; free virtual = 5027
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:57 ; elapsed = 00:03:13 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 120 ; free virtual = 5140
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:03:01 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 130 ; free virtual = 5027
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:57 ; elapsed = 00:03:13 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 120 ; free virtual = 5140
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -1832,7 +1832,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:02 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5025
+Finished IO Insertion : Time (s): cpu = 00:02:57 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 111 ; free virtual = 5136
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1845,7 +1845,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:02 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5026
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:57 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 111 ; free virtual = 5136
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1857,25 +1857,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:02 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5026
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:57 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 111 ; free virtual = 5135
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:02 ; elapsed = 00:03:20 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5026
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:57 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 111 ; free virtual = 5136
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:02 ; elapsed = 00:03:21 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5025
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:58 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 109 ; free virtual = 5134
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:02 ; elapsed = 00:03:21 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5025
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:58 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 110 ; free virtual = 5134
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1933,19 +1933,19 @@ Report Instance Areas:
 |23    |      \reset_gen_cc.rstblk_cc                   |reset_blk_ramfifo            |     8|
 +------+------------------------------------------------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:02 ; elapsed = 00:03:21 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5025
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:58 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 110 ; free virtual = 5134
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:51 ; elapsed = 00:03:00 . Memory (MB): peak = 1341.590 ; gain = 274.340 ; free physical = 128 ; free virtual = 5025
-Synthesis Optimization Complete : Time (s): cpu = 00:03:03 ; elapsed = 00:03:21 . Memory (MB): peak = 1341.590 ; gain = 497.441 ; free physical = 128 ; free virtual = 5025
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:46 ; elapsed = 00:02:57 . Memory (MB): peak = 1341.586 ; gain = 273.340 ; free physical = 100 ; free virtual = 5125
+Synthesis Optimization Complete : Time (s): cpu = 00:02:58 ; elapsed = 00:03:15 . Memory (MB): peak = 1341.586 ; gain = 497.441 ; free physical = 100 ; free virtual = 5125
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
-Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
+Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc] for cell 'U0'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
@@ -1954,7 +1954,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 94 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:01 ; elapsed = 00:03:16 . Memory (MB): peak = 1341.594 ; gain = 397.844 ; free physical = 121 ; free virtual = 5025
+synth_design: Time (s): cpu = 00:02:56 ; elapsed = 00:03:14 . Memory (MB): peak = 1341.590 ; gain = 397.844 ; free physical = 121 ; free virtual = 5119
 INFO: [Coretcl 2-1174] Renamed 22 cell refs.
-report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:02 . Memory (MB): peak = 1373.609 ; gain = 0.000 ; free physical = 141 ; free virtual = 5011
-INFO: [Common 17-206] Exiting Vivado at Sun Jan 17 17:45:56 2016...
+report_utilization: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:02 . Memory (MB): peak = 1373.605 ; gain = 0.000 ; free physical = 131 ; free virtual = 5116
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 31 16:35:14 2016...

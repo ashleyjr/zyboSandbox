@@ -16,14 +16,15 @@ create_project -in_memory -part xc7z010clg400-1
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.cache/wt [current_project]
-set_property parent.project_path /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.xpr [current_project]
+set_property webtalk.parent_dir /home/ashley/zyboSandbox/verilog/vivado/xillydemo.cache/wt [current_project]
+set_property parent.project_path /home/ashley/zyboSandbox/verilog/vivado/xillydemo.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado-ip [current_project]
+set_property ip_repo_paths /home/ashley/zyboSandbox/vivado-essentials/vivado-ip [current_project]
 set_property vhdl_version vhdl_2k [current_fileset]
-read_ip /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048.xci
-set_property is_locked true [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048.xci]
+read_ip /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048.xci
+set_property used_in_implementation false [get_files -all /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp]
+set_property is_locked true [get_files /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048.xci]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
@@ -32,40 +33,40 @@ rename_ref -prefix_all fifo_8x2048_
 write_checkpoint -noxdef fifo_8x2048.dcp
 catch { report_utilization -file fifo_8x2048_utilization_synth.rpt -pb fifo_8x2048_utilization_synth.pb }
 if { [catch {
-  file copy -force /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp
+  file copy -force /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 if { [catch {
-  write_verilog -force -mode synth_stub /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.v
+  write_verilog -force -mode synth_stub /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 if { [catch {
-  write_vhdl -force -mode synth_stub /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 if { [catch {
-  write_verilog -force -mode funcsim /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_sim_netlist.v
+  write_verilog -force -mode funcsim /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 if { [catch {
-  write_vhdl -force -mode funcsim /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
-if {[file isdir /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048]} {
+if {[file isdir /home/ashley/zyboSandbox/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048]} {
   catch { 
-    file copy -force /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.v /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048
+    file copy -force /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.v /home/ashley/zyboSandbox/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048
   }
 }
 
-if {[file isdir /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048]} {
+if {[file isdir /home/ashley/zyboSandbox/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048]} {
   catch { 
-    file copy -force /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.vhdl /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048
+    file copy -force /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_stub.vhdl /home/ashley/zyboSandbox/verilog/vivado/xillydemo.ip_user_files/ip/fifo_8x2048
   }
 }

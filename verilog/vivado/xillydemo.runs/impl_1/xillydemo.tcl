@@ -56,43 +56,43 @@ start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.cache/wt [current_project]
-  set_property parent.project_path /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.xpr [current_project]
+  set_property webtalk.parent_dir /home/ashley/zyboSandbox/verilog/vivado/xillydemo.cache/wt [current_project]
+  set_property parent.project_path /home/ashley/zyboSandbox/verilog/vivado/xillydemo.xpr [current_project]
   set_property ip_repo_paths {
-  /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.cache/ip
-  /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado-ip
+  /home/ashley/zyboSandbox/verilog/vivado/xillydemo.cache/ip
+  /home/ashley/zyboSandbox/vivado-essentials/vivado-ip
 } [current_project]
-  set_property ip_output_repo /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.cache/ip [current_project]
-  add_files -quiet /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/synth_1/xillydemo.dcp
+  set_property ip_output_repo /home/ashley/zyboSandbox/verilog/vivado/xillydemo.cache/ip [current_project]
+  add_files -quiet /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/synth_1/xillydemo.dcp
   set_property edif_extra_search_paths /home/ashley/zybo/xillinux-eval-zybo-1.3c/cores [current_fileset]
-  read_edif /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/system/pcores/xillybus_lite_v1_00_a/netlist/xillybus_lite.ngc
-  add_files -quiet /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.dcp
-  set_property netlist_only true [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.dcp]
-  add_files -quiet /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp
-  set_property netlist_only true [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp]
-  add_files -quiet /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.dcp
-  set_property netlist_only true [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.dcp]
-  read_xdc -ref vivado_system_processing_system7_0_0 -cells inst /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xdc]
-  read_xdc -prop_thru_buffers -ref vivado_system_rst_processing_system7_0_100M_0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0_board.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0_board.xdc]
-  read_xdc -ref vivado_system_rst_processing_system7_0_100M_0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0.xdc]
-  read_xdc -mode out_of_context -ref fifo_32x512 -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc]
-  read_xdc -ref fifo_32x512 -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc]
-  read_xdc -mode out_of_context -ref fifo_8x2048 -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_ooc.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048_ooc.xdc]
-  read_xdc -ref fifo_8x2048 -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048/fifo_8x2048.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/fifo_8x2048/fifo_8x2048/fifo_8x2048.xdc]
-  read_xdc -mode out_of_context -ref vga_fifo -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo_ooc.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo_ooc.xdc]
-  read_xdc -ref vga_fifo -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo/vga_fifo.xdc
-  set_property processing_order EARLY [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo/vga_fifo.xdc]
-  read_xdc /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/xillydemo.xdc
-  read_xdc -ref vga_fifo -cells U0 /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo/vga_fifo_clocks.xdc
-  set_property processing_order LATE [get_files /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo/vga_fifo_clocks.xdc]
+  read_edif /home/ashley/zyboSandbox/vivado-essentials/vivado_system/system/pcores/xillybus_lite_v1_00_a/netlist/xillybus_lite.ngc
+  add_files -quiet /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.dcp
+  set_property netlist_only true [get_files /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.dcp]
+  add_files -quiet /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp
+  set_property netlist_only true [get_files /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/fifo_8x2048_synth_1/fifo_8x2048.dcp]
+  add_files -quiet /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.dcp
+  set_property netlist_only true [get_files /home/ashley/zyboSandbox/verilog/vivado/xillydemo.runs/vga_fifo_synth_1/vga_fifo.dcp]
+  read_xdc -ref vivado_system_processing_system7_0_0 -cells inst /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref vivado_system_rst_processing_system7_0_100M_0 /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0_board.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0_board.xdc]
+  read_xdc -ref vivado_system_rst_processing_system7_0_100M_0 /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/vivado_system/ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0.xdc]
+  read_xdc -mode out_of_context -ref fifo_32x512 -cells U0 /home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512_ooc.xdc]
+  read_xdc -ref fifo_32x512 -cells U0 /home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/fifo_32x512/fifo_32x512/fifo_32x512.xdc]
+  read_xdc -mode out_of_context -ref fifo_8x2048 -cells U0 /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_ooc.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048_ooc.xdc]
+  read_xdc -ref fifo_8x2048 -cells U0 /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048/fifo_8x2048.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/fifo_8x2048/fifo_8x2048/fifo_8x2048.xdc]
+  read_xdc -mode out_of_context -ref vga_fifo -cells U0 /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo_ooc.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo_ooc.xdc]
+  read_xdc -ref vga_fifo -cells U0 /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo/vga_fifo.xdc
+  set_property processing_order EARLY [get_files /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo/vga_fifo.xdc]
+  read_xdc /home/ashley/zyboSandbox/vivado-essentials/xillydemo.xdc
+  read_xdc -ref vga_fifo -cells U0 /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo/vga_fifo_clocks.xdc
+  set_property processing_order LATE [get_files /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo/vga_fifo_clocks.xdc]
   link_design -top xillydemo -part xc7z010clg400-1
   close_msg_db -file init_design.pb
 } RESULT]
@@ -142,12 +142,12 @@ set rc [catch {
   create_msg_db route_design.pb
   route_design 
   set src_rc [catch { 
-    puts "source /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/showstopper.tcl"
-    source /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/showstopper.tcl
+    puts "source /home/ashley/zyboSandbox/vivado-essentials/showstopper.tcl"
+    source /home/ashley/zyboSandbox/vivado-essentials/showstopper.tcl
   } _RESULT] 
   if {$src_rc} { 
     send_msg_id runtcl-1 error "$_RESULT"
-    send_msg_id runtcl-2 error "sourcing script /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/showstopper.tcl failed"
+    send_msg_id runtcl-2 error "sourcing script /home/ashley/zyboSandbox/vivado-essentials/showstopper.tcl failed"
     return -code error
   }
   write_checkpoint -force xillydemo_routed.dcp

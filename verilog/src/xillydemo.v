@@ -214,7 +214,7 @@ module xillydemo
     .clk_100(clk_100),
     .otg_oc(otg_oc),
     .PS_GPIO(PS_GPIO),
-    .GPIO_LED(GPIO_LED),
+    .GPIO_LED(),                        // NC - LEDs not driven from here
     .bus_clk(bus_clk),
     .quiesce(quiesce),
 
@@ -269,6 +269,19 @@ module xillydemo
    assign  user_r_mem_8_empty = 0;
    assign  user_r_mem_8_eof = 0;
    assign  user_w_mem_8_full = 0;
+   
+   
+   
+    // Data to write is latched to LEDs
+    reg [3:0] leds;
+    always @(posedge bus_clk) begin
+      if (user_w_write_8_wren)
+        leds <= user_w_write_8_data[3:0];
+    end
+   
+    assign GPIO_LED = leds;       
+
+
 
    // 32-bit loopback
    fifo_32x512 fifo_32

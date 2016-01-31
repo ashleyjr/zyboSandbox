@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-| Date              : Sun Jan 17 18:01:07 2016
+| Date              : Sun Jan 31 17:37:09 2016
 | Host              : Heidi running 64-bit Ubuntu 14.04.3 LTS
 | Command           : report_clock_utilization -file xillydemo_clock_utilization_routed.rpt
 | Design            : xillydemo
@@ -51,8 +51,8 @@ Table of Contents
 +-------+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+------+-------+-------+
 | Index | BUFG Cell                                                                                         | Net Name                                                                        | BELs | Sites | Fixed |
 +-------+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+------+-------+-------+
-|     1 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk_ins/vga_clk_buf   | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |  211 |    84 |    no |
-|     2 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       | 4868 |  1533 |    no |
+|     1 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk_ins/vga_clk_buf   | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |  211 |    86 |    no |
+|     2 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       | 4782 |  1490 |    no |
 +-------+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+------+-------+-------+
 
 
@@ -95,7 +95,7 @@ Table of Contents
 +-------+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------+-------+-------+
 | Index | BUFR Cell                                                                                       | Net Name                                                                          | BELs | Sites | Fixed |
 +-------+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------+-------+-------+
-|     1 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk_ins/dvi_clk_buf | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/dvi_clk_w |  193 |    89 |    no |
+|     1 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk_ins/dvi_clk_buf | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/dvi_clk_w |  193 |    90 |    no |
 +-------+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------+-------+-------+
 
 
@@ -144,10 +144,10 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 2040 |  8800 |  163 |  1600 |    2 |    20 |    0 |    10 |    0 |    20 |
-| X1Y0              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    4 |    50 | 1639 |  8800 |  199 |  1400 |    6 |    40 |    0 |    20 |    0 |    20 |
-| X0Y1              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  747 |  8800 |   35 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y1              |    2 |    12 |    1 |     4 |    0 |     2 |    1 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    4 |    50 |   23 |    50 |  404 |  8800 |    3 |  1400 |    1 |    40 |    0 |    20 |    0 |    20 |
+| X0Y0              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 1832 |  8800 |  157 |  1600 |    2 |    20 |    0 |    10 |    0 |    20 |
+| X1Y0              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    4 |    50 | 1401 |  8800 |  199 |  1400 |    6 |    40 |    0 |    20 |    0 |    20 |
+| X0Y1              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  833 |  8800 |   41 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    2 |    12 |    1 |     4 |    0 |     2 |    1 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    4 |    50 |   23 |    50 |  678 |  8800 |    3 |  1400 |    1 |    40 |    0 |    20 |    0 |    20 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * RAMB36 site can be used as two RAMB18/FIFO18 sites.
 
@@ -159,7 +159,7 @@ Table of Contents
 | Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                  Clock Net Name                                 |
 +-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+---------------------------------------------------------------------------------+
 | BUFG        | BUFHCE_X0Y9 |   no  |         0 |        0 |       0 |         1 |       0 |       0 |   64 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |
-| BUFG        | BUFHCE_X0Y8 |   no  |         0 |        0 |       0 |         3 |       0 |       0 | 1976 |   163 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
+| BUFG        | BUFHCE_X0Y8 |   no  |         0 |        0 |       0 |         3 |       0 |       0 | 1768 |   157 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
 +-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+---------------------------------------------------------------------------------+
 
 
@@ -170,7 +170,7 @@ Table of Contents
 | Source Type | BUFHCE Site  | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                  Clock Net Name                                 |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+---------------------------------------------------------------------------------+
 | BUFG        | BUFHCE_X1Y11 |   no  |         0 |        0 |       0 |         0 |       0 |       4 |    0 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |
-| BUFG        | BUFHCE_X1Y8  |   no  |         0 |        0 |       0 |        12 |       0 |       0 | 1639 |   199 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
+| BUFG        | BUFHCE_X1Y8  |   no  |         0 |        0 |       0 |        12 |       0 |       0 | 1401 |   199 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+---------------------------------------------------------------------------------+
 
 
@@ -180,8 +180,8 @@ Table of Contents
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------------------------+
 | Source Type | BUFHCE Site  | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                                  Clock Net Name                                 |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------------------------+
-| BUFG        | BUFHCE_X0Y21 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  63 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |
-| BUFG        | BUFHCE_X0Y20 |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 684 |    35 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
+| BUFG        | BUFHCE_X0Y21 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  39 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk |
+| BUFG        | BUFHCE_X0Y20 |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 794 |    41 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1       |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------------------------+
 
 
@@ -192,9 +192,9 @@ Table of Contents
 | Source Type | BUFHCE Site  | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                                    Clock Net Name                                    |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------------------------------------------------------+
 | BUFIO       |      ---     |   no  |         0 |        0 |       0 |         0 |       0 |       8 |   0 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/serdes_clk_w |
-| BUFG        | BUFHCE_X1Y22 |   no  |         0 |        0 |       0 |         1 |       0 |      14 |  64 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk      |
-| BUFG        | BUFHCE_X1Y23 |   no  |         0 |        0 |       0 |         0 |       4 |       1 | 158 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1            |
+| BUFG        | BUFHCE_X1Y22 |   no  |         0 |        0 |       0 |         1 |       0 |      14 |  88 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/vga_clk      |
 | BUFR        |      ---     |   no  |         0 |        0 |       0 |         0 |       0 |       8 | 182 |     3 |        0 | xillybus_ins/system_i/vivado_system_i/xillyvga_0/inst/xillyvga_core_ins/dvi_clk_w    |
+| BUFG        | BUFHCE_X1Y23 |   no  |         0 |        0 |       0 |         0 |       4 |       1 | 408 |     0 |        0 | xillybus_ins/system_i/vivado_system_i/processing_system7_0/inst/FCLK_CLK1            |
 +-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------------------------------------------------------+
 
 

@@ -1,10 +1,9 @@
 -- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
--- Date        : Sun Jan 17 17:53:51 2016
+-- Date        : Sun Jan 31 16:42:43 2016
 -- Host        : Heidi running 64-bit Ubuntu 14.04.3 LTS
--- Command     : write_vhdl -force -mode synth_stub
---               /home/ashley/zybo/xillinux-eval-zybo-1.3c/vivado-essentials/vga_fifo/vga_fifo_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub /home/ashley/zyboSandbox/vivado-essentials/vga_fifo/vga_fifo_stub.vhdl
 -- Design      : vga_fifo
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1

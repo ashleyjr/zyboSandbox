@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-| Date         : Sun Jan 17 17:49:53 2016
+| Date         : Sun Jan 31 16:38:51 2016
 | Host         : Heidi running 64-bit Ubuntu 14.04.3 LTS
 | Command      : report_utilization -file fifo_8x2048_utilization_synth.rpt -pb fifo_8x2048_utilization_synth.pb
 | Design       : fifo_8x2048
