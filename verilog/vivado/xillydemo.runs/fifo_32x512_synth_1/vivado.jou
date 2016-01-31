@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Jan 17 17:42:08 2016
+# Process ID: 8311
+# Current directory: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1
+# Command line: vivado -log fifo_32x512.vds -mode batch -messageDb vivado.pb -notrace -source fifo_32x512.tcl
+# Log file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.vds
+# Journal file: /home/ashley/zybo/xillinux-eval-zybo-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/vivado.jou
+#-----------------------------------------------------------
+source fifo_32x512.tcl -notrace
