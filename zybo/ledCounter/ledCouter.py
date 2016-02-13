@@ -6,7 +6,7 @@ def main():
    call(["make","clean"])
    call(["make"])
 
-   for i in range(1,256):
+   for i in range(1,256):     #TODO: Can;t write 0
       print i
       call(["./write","/dev/xillybus_write_8",str(chr(i))])
 
