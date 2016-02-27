@@ -24,7 +24,26 @@ module xillydemo
   inout  smb_sclk,
   inout  smb_sdata   
   ); 
-
+    //////////////////////////////////////////////////////
+    // Custom design
+    ////////////////////////////////////////////////////////
+    reg [7:0] data;
+    
+    assign GPIO_LED = {PS_GPIO[19],PS_GPIO[20],PS_GPIO[21],PS_GPIO[22]};
+    
+    always @(posedge bus_clk) begin
+        if (user_w_mem_8_wren) begin
+            if(PS_GPIO[11])
+                data <= user_w_mem_8_data;  
+            else
+                data <= 8'd65 + {PS_GPIO[12],PS_GPIO[13],PS_GPIO[14]};
+        end
+        if (user_r_mem_8_rden)user_r_mem_8_data <= data; 
+    end
+     
+    ///////////////////////////////////////////////////////////
+     
+     
    // Clock and quiesce
    wire    bus_clk;
    wire    quiesce;
@@ -213,8 +232,8 @@ module xillydemo
     // General signals
     .clk_100(clk_100),
     .otg_oc(otg_oc),
-    .PS_GPIO(PS_GPIO),
-    .GPIO_LED(GPIO_LED),
+    .PS_GPIO(),
+    .GPIO_LED(),
     .bus_clk(bus_clk),
     .quiesce(quiesce),
 
@@ -254,16 +273,6 @@ module xillydemo
 			    litearray2[user_addr[6:2]],
 			    litearray1[user_addr[6:2]],
 			    litearray0[user_addr[6:2]] };
-     end
-   
-   // A simple inferred RAM
-   always @(posedge bus_clk)
-     begin
-	if (user_w_mem_8_wren)
-	  demoarray[user_mem_8_addr] <= user_w_mem_8_data;
-	
-	if (user_r_mem_8_rden)
-	  user_r_mem_8_data <= demoarray[user_mem_8_addr];	  
      end
 
    assign  user_r_mem_8_empty = 0;
